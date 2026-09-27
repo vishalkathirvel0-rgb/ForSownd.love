@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Reasons &amp; Dreams</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="site" class="site">
+
+  <nav class="nav">
+    <span class="nav-brand display">V &amp; S</span>
+    <div class="nav-links">
+      <a href="#reasons">Reasons</a>
+      <a href="#dreams">Namba epdi irupom</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hearts" id="hearts" aria-hidden="true"></div>
+    <p class="eyebrow" id="days-together"></p>
+    <h1 class="display hero-title">Reasons I love you<br>&amp; Namba ennala panna porom</h1>
+    <p class="hero-sub">Unakkaga oru chinna site.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#reasons">Read the reasons</a>
+      <a class="btn btn-ghost" href="#dreams">See our dreams</a>
+    </div>
+  </header>
+
+  <!-- REASONS -->
+  <section id="reasons" class="section">
+    <div class="section-head reveal">
+      <p class="eyebrow">Chapter one</p>
+      <h2 class="display">Reasons I love you</h2>
+      <p class="muted"></p>
+    </div>
+
+    <div class="reason-feature reveal">
+      <p class="eyebrow" id="rot-label">Reason of the day</p>
+      <p class="reason-feature-text display" id="rot-text">…</p>
+    </div>
+
+    <div class="reason-controls reveal">
+     
+      <span class="counter muted" id="reason-counter"></span>
+    </div>
+
+    <div class="chips reveal" id="reason-filters"></div>
+
+    <div class="reason-grid" id="reason-grid"></div>
+  </section>
+
+  <!-- DREAMS -->
+  <section id="dreams" class="section section-alt">
+    <div class="section-head reveal">
+      <p class="eyebrow">Chapter two</p>
+      <h2 class="display">Un kooda ipdila irukanum!</h2>
+      <p class="muted">Things to do and a home to build. Add your own — it saves right here.</p>
+    </div>
+
+    <div class="block reveal">
+      <h3 class="block-title">Things we'll do</h3>
+      <form class="add-form" id="bucket-form">
+        <input id="bucket-input" type="text" placeholder="Add a dream…"
+               maxlength="120" autocomplete="off">
+        <button class="btn btn-primary" type="submit">Add</button>
+      </form>
+      <ul class="bucket-list" id="bucket-list"></ul>
+      <p class="muted small" id="bucket-progress"></p>
+    </div>
+
+    <div class="block reveal">
+      <h3 class="block-title">The home we'll build</h3>
+      <div class="board" id="home-board"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="display footer-line">Made with love, By Me.</p>
+    <p class="muted small">&copy; <span id="year"></span></p>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
